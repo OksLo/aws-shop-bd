@@ -1,4 +1,4 @@
-<p style="text-align: center">
+<p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/logo.svg" width="100" alt="Nest Logo" /></a>
 </p>
 
@@ -26,7 +26,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A RESTful checkout/shopping-cart backend API built with **NestJS** and **TypeScript**, designed as part of an AWS Cloud Development course. The service manages users, shopping carts, and order checkout in-memory, with Passport.js-based authentication (Local, HTTP Basic, and JWT strategies). It is intended for deployment to **AWS Elastic Beanstalk** as a foundation for a cloud-native e-commerce backend.
+
+**Key features:**
+- Cart management — create, update, and clear a user's cart
+- Checkout — convert a cart into an order with payment and delivery details
+- Authentication — login via username/password, HTTP Basic, or JWT Bearer tokens
+- Runs on port `4000` by default (configurable via `PORT` env var)
 
 ## Installation
 
